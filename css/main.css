@@ -3740,9 +3740,8 @@ th {
     .version4 .owl-nav-img {
       display: none; } }
 .version4 .owl-nav {
-  position: absolute;
-  right: -100px;
-  top: 111px; }
+  margin-bottom: -12px;
+}
   @media (max-width: 1440px) {
     .version4 .owl-nav {
       right: -40px; } }
@@ -3763,11 +3762,14 @@ th {
     .version4 .owl-nav .owl-next:hover {
       opacity: 1; }
   .version4 .owl-nav .owl-prev {
-    position: relative;
-    top: -8px; }
+    float: left ;
+    color:#FFAB00;
+  }
   .version4 .owl-nav .owl-next {
-    position: relative;
-    top: 8px; }
+    float: left;
+    color:#FFAB00;
+    margin-left: 20px;
+    }
 
 /* ############# End Version4 Client CSS ############# */
 /* ############# Start Version5 Client CSS ############# */

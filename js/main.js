@@ -488,12 +488,12 @@ $(function() {
     loop: true,
     margin: 30,
     items: 1,
-    nav: false,
+    nav: true,
     dots: true,
     responsiveClass: true,
-    autoplay: 2500,
-    slideSpeed: 300,
-    paginationSpeed: 500
+    autoplay: 500,
+    slideSpeed: 200,
+    paginationSpeed: 200
   });
 
   $(".blog-banner-carusel").owlCarousel({
