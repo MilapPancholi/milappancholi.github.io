@@ -101,7 +101,7 @@ $(function() {
   $(".menu-bar4").on("click", function(e) {
     e.preventDefault();
     $(".nav4").toggleClass("hide");
-    $("span", this).toggleClass("lnr-menu lnr-cross");
+    $("span", this).toggleClass("lnr-menu");
     $(".main-menu").addClass("mobile-menu");
   });
   /* ---------------------------------------------
